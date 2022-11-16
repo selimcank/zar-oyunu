@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zar Oyunu</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="player player--0 player--active">
+            <h2>1. OYUNCU</h2>
+            <p class="tskor" id="tscore--0">0</p>
+            <div class="current">
+                <p>ZAR</p>
+                <p class="skor" id="score--0">0</p>
+            </div>
+        </section>
+
+        <section class="player player--1">
+            <h2>2. OYUNCU</h2>
+            <p class="tskor" id="tscore--1">0</p>
+            <div class="current">
+                <p>ZAR</p>
+                <p class="skor" id="score--1">0</p>
+            </div>
+        </section>
+        
+        <a href="#" id="reset">
+            <i class="fa-solid fa-rotate"></i>
+            YENİ OYUN
+        </a>
+
+        <a href="#" id="at">
+            <i class="fa-solid fa-dice"></i>
+            AT
+        </a>
+
+        <a href="#" id="tut">
+            <i class="fa-solid fa-gamepad"></i>
+            TUT                
+        </a>
+        <img src="img/dice1.png" alt="zar" class="hidden" id="img">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
